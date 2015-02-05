@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Easy Ajax JQuery Plugin</title>
+
+		<!--<script src="jquery.js"></script>-->
+
+		<link rel="stylesheet" type="text/css" href="jquery.easyAjax/jquery.easyAjax.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="jquery.easyAjax/jquery.easyAjax.js"></script>
+ 
+		<script>
+
+			$(document).ready(function() {
+
+				$('.signup').easyAjax({
+					href: 'signup.html',
+				});
+
+				$('.default').easyAjax();
+
+				$('.x').easyAjax({
+					href: 'x.html',
+					linkColor : 'blue',
+					cursor : 'crosshair',
+					slideSpeed : 800,
+				});
+
+			});
+
+		</script>
+
+	</head>
+	<body>
+
+		<p>Lets make <span class="signup">this text</span> into a link</p>
+		<p>Lets make <span class="default">this text</span> into a link</p>
+		<p>Lets make <span class="x">this text</span> into a link</p>
+
+	</body>
+
+</html>
