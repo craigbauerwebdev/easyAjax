@@ -66,7 +66,7 @@ $('.yourClass2').easyAjax({
 	href : moreinfo.html
 });
 ~~~
-When the element with the class of .yourClass2 is clicked the moreInfo template will be loaded. This addes our first option (href) and is the only option that is required required optiion to use this plugin with multiple instences of esayAjax.
+When the element with the class of .yourClass2 is clicked the moreInfo template will be loaded. This addes our first option (href) and is the only option that is required to use this plugin with multiple instences of esayAjax.
 
 ### All Options
 | Key           | Value example          | 
