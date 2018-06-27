@@ -105,7 +105,7 @@ Here is a basic template to get you started quickly. Just copy and paste this co
 			
 				$('.default').easyAjax();
 
-				$('.signup').moreInfo({
+				$('.signup').easyAjax({
 					href: 'signup.html',
 				});
 
